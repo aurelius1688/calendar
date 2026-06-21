@@ -1,0 +1,12 @@
+{
+  "name": "liquid-glass-calendar",
+  "version": "1.0.0",
+  "description": "液态玻璃日历 - Cloudflare Pages",
+  "scripts": {
+    "dev": "wrangler pages dev .",
+    "deploy": "wrangler pages deploy . --project-name=calendar-new"
+  },
+  "devDependencies": {
+    "wrangler": "^3.0.0"
+  }
+}
